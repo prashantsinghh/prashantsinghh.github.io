@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Default Color styles
+========================================================================== */
+.headr_txt h2 span {
+    color: #f9ca3b;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f9ca3b;
+}
+.navbar-default .navbar-nav > li > .current {
+    color: #f9ca3b;
+}
+.dropdown-menu-large .dropdown-header {
+    border-bottom: 2px solid #f9ca3b;
+}
+.dropdown-menu li ul li a:hover {
+    color: #f9ca3b;
+}
+.hvr-shutter-in-horizontal {
+    background: #f9ca3b;
+}
+.hvr-shutter-in-horizontal::before {
+    background: #f9ca3b;
+}
+.btn-cus_1:hover {
+    background: #f9ca3b;
+    border: 1px solid #f9ca3b;
+}
+.agenda-section .nav-tabs > li a {
+    border-bottom: 5px solid #f9ca3b;
+}
+.agenda-section .nav-tabs > li > a:hover {
+    border-bottom: 5px solid #f9ca3b;
+}
+.member .info {
+    border: 2px solid #f9ca3b;
+}
+.member:hover .info {
+    background: #f9ca3b;
+}
+.achieve-section .stat-count {
+    color: #f9ca3b;
+}
+.pricing-box a {
+    background: #f9ca3b;
+}
+.pricing-box .price-recomand {
+    border-bottom: 3px solid #f9ca3b;
+}
+.outer-border.single-form .input-group .btn {
+    background-color: #f9ca3b;
+}
+.testimonials-section .owl-theme .owl-controls .owl-page.active span {
+    background: #f9ca3b;
+}
+.submit-button {
+    background:#f9ca3b;
+}
+.subfooter p a {
+    color: #f9ca3b;
+}
+.scrollup {
+    color: #f9ca3b;
+}
+ .scrollup:active,
+ .scrollup:focus {
+     color: #f9ca3b;
+ }
+.entry-meta-bottom {
+    border: 1px solid #f9ca3b;
+}
+.blog-area .pager-icon {
+    background: #f9ca3b;
+}
+.comments li .comment span.comment-reply a {
+    background: #f9ca3b;
+    border: 2px solid #f9ca3b;
+}
+.widget-tags > a:hover {
+    background: #f9ca3b;
+}
+
+ 

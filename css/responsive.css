@@ -1,0 +1,474 @@
+/*          Responsive styles
+================================================== */
+/*                     Tablet Landscape
+=======================================================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .blog-post-list .entry-meta {
+        /*! top: 343px; */
+    }
+    .widget {
+        padding: 20px 10px 10px 10px;
+    }
+    .recent-title > a {
+        font-size: 13px;
+    }
+		.accomodation-image {
+			margin-bottom: 30px;
+		}
+		.accomodation-image img{
+			width: 100%;
+		}
+		.gallery-section .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: 464px;
+}
+.post-meta ul li {
+    margin-left: 0px;
+}
+}
+/*                      Tablet Portrait
+=======================================================================================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-default .navbar-nav > li > a {
+        padding-right: 14px;
+    }
+    .navbar-right {
+        padding-right: 0px;
+    }
+    .navbar-default .navbar-brand {
+        margin-left: -98px !important;
+    }
+    .title-header p {
+        width: 45%;
+    }
+	.slider-area .big-title {
+		color: #000;
+		font-size: 58px;
+	}
+
+    .agenda-section .nav-tabs > li {
+        margin-right: 19px;
+    }
+    .achieve-section .col-lg-3 i {
+        top: 3px;
+    }
+    .gallery-section .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 352px;
+    }
+    .accomodation-section {
+        padding-bottom: 70px;
+    }
+	.post-meta ul li {
+		margin-left: 0px;
+	}
+    .accomodation-image {
+        margin-bottom: 30px;
+    }
+    .pricing-box p {
+        padding: 0 10px;
+    }
+    .pricing-box a {
+        font-size: 15px;
+    }
+    .sponsor-section .btn-chos {
+        width: 25%;
+    }
+    .blog-post-list .entry-meta {
+        /*! top: 207px; */
+    }
+    .entry-meta-bottom .entry-category {
+        margin-left: 15px;
+    }
+    .widget {
+        padding: 20px 10px 10px 10px;
+    }
+    .recent-title > a {
+        font-size: 13px;
+    }
+}
+/*                          Phone
+=======================================================================================*/
+
+@media only screen and (max-width: 767px) {
+    .blog-post-list .entry-meta {
+        top: -94px;
+		position: relative;
+    }
+    .btn-cus_1 {
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 12px 19px;
+    }
+    header .container {
+        padding-bottom: 50px;
+        padding-top: 112px;
+    }
+    .headr_txt h2 {
+        letter-spacing: 1px;
+    }
+    .navbar-default .navbar-brand {
+        margin-left: -84px !important;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 23px;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: rgba(221, 221, 221, 0);
+    }
+    .navbar-default {
+        z-index: 2147483647 !important;
+    }
+    .navbar-right {
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    .navbar-default .navbar-collapse {
+        border-color: rgba(231, 231, 231, 0);
+    }
+	.slider-content {
+		display: none;
+	}
+	.video-header h5 {
+       font-size: 14px;
+	}
+    /* Mega Menu
+----------------------*/
+    
+    .js-navbar-collapse ul {
+        margin-left: 0px;
+        background: rgba(255, 255, 255, 0.87);
+    }
+    .dropdown-menu-large > li > ul {
+        text-align: center;
+    }
+    .dropdown-menu li ul li:first-child {
+        display: inline-block;
+    }
+    .about-left {
+        height: 600px;
+        padding-top: 160px;
+        background: linear-gradient(3deg, rgba(255, 255, 255, 0.44), #fff 60%, rgba(245, 245, 255, 0.95));
+        text-align: center;
+    }
+	.guide-item {
+    margin-top: 33px;
+}
+.guide-item-img {
+    margin-left: 0px;
+}
+    .about-left h3 {
+        font-size: 26px;
+        top: -67px;
+        left: 0;
+    }
+    .about-left span {
+        font-size: 55px;
+        position: absolute;
+        margin-top: -100px;
+        transform: rotate(0deg);
+        margin-left: -44px;
+        text-align: center;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+    }
+    .about-left p {
+        margin-top: -80px;
+        border-left: none;
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+    .agenda-section {
+        padding-top: 70px;
+    }
+    .agenda-section .nav-tabs > li {
+        margin-bottom: 13px;
+    }
+    .guide-item h3 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .post-meta ul li {
+       margin-left: 0px;
+    }
+    .post-meta ul li:last-child {
+        margin: 0px;
+    }
+    .speaker-section {
+        padding-bottom: 70px;
+    }
+    .member .info {
+        bottom: 0px;
+    }
+    .member {
+        margin-bottom: 30px;
+    }
+    .blog-section {
+        padding-bottom: 70px;
+    }
+    .blog-image img {
+        width: 100%;
+    }
+    .blog-section .col-lg-4:hover .blog-image::before {
+        bottom: -30px;
+    }
+    .blog-image::before {
+        bottom: -18px;
+        height: 37px;
+        left: -5px;
+        right: -3px;
+        transform: rotate(5deg);
+        -webkit-transform: rotate(4deg);
+    }
+    .bloginner h4 {
+        margin-top: 33px;
+    }
+    .bloginner {
+        margin-bottom: 30px;
+    }
+    .achieve-section .col-lg-3 i {
+        top: 3px;
+    }
+    .achieve-section .col-lg-3 {
+        margin-bottom: 25px;
+    }
+    .achieve-section h5 {
+        font-size: 13px;
+    }
+    .gallery-section .col-lg-12 {
+        padding-left: 15px;
+    }
+    .gallery-section .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 350px;
+    }
+    .accomodation-section {
+        padding-bottom: 70px;
+    }
+    .accomodation-section a.btn {
+        top: 70%;
+    }
+    .accomodation-section .blog-text {
+        margin-left: -23px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .venue-section {
+        margin-bottom: -100px;
+    }
+    .venue-card {
+        margin-bottom: 30px;
+    }
+    .pricing-section {
+        padding-bottom: 70px;
+    }
+    .pricing-box {
+        margin-bottom: 30px;
+    }
+    .outer-border.single-form .input-group .btn {
+        padding: 0px 11px;
+        min-width: 100px;
+    }
+    .newsletter_wrapper h3 {
+        font-size: 20px;
+        padding: 0px 14px;
+    }
+    .testimonials-section .testimonial-box .cus-title {
+        margin-left: 0;
+    }
+    .testimonials-section .item .col-lg-6 {
+        margin-left: 0px;
+    }
+    .sponsor-section .btn-chos {
+        width: 68%;
+    }
+    .contact-info {
+        margin-bottom: 30px;
+    }
+    .footer-section .single-form .input-group {
+        width: 100%;
+    }
+    .footer-section .recent-post li a {
+        left: 10px;
+    }
+    .subfooter {
+        padding: 20px 34px 0px 34px;
+        margin-top: 0px;
+    }
+    .scrollup {
+        float: none;
+        margin-top: 0px;
+        padding-bottom: 35px;
+    }
+    .subfooter p {
+        margin-bottom: 10px;
+        float: none;
+    }
+    .title-header {
+        text-align: center;
+    }
+    .title-header p {
+        width: 100%;
+        top: auto;
+        padding-left: 0;
+        border: none;
+        position: relative;
+        margin-top: 10px;
+        -moz-transform: none;
+        -o-transform: none;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+    .title-header h3 {
+        margin-left: 0px;
+        margin-top: -34px;
+        margin-bottom: 0px;
+        display: block;
+    }
+    .title-header span {
+        position: relative;
+        transform: rotate(0deg);
+    }
+    .about-section .col-xs-8 {
+        width: 100%;
+    }
+    .btn-cus_1 {
+        display: none;
+    }
+    /*=====================================
+        Blog Page 
+*=====================================*/
+    
+    .blog-area {
+        margin-top: -40px;
+        padding-right: 0px;
+    }
+    .widget-area {
+        padding-top: 0px;
+    }
+    .blog-post-list .entry-meta span {
+        margin-left: 0px;
+    }
+    .blog-area .pagination .pager {
+        margin: 10px 6px;
+    }
+    .blog-area .pager li {
+        position: relative;
+        padding: 0px 0px;
+    }
+    .blog-post-list .entry-content p {
+        padding-right: 0px;
+    }
+    .widget {
+        margin-bottom: 40px;
+        padding: 30px 10px 20px 10px;
+    }
+    .comments li .comment span.comment-reply {
+        right: -16px;
+        position: relative;
+        top: -11px;
+    }
+    .comments li .comment {
+        padding: 20px 10px 20px;
+    }
+    .comments li .comment span.comment-date {
+        margin-top: -5px;
+    }
+    .comments li .comment p {
+        margin-top: 10px;
+    }
+    .entry-meta-bottom .entry-category {
+        margin-left: 0px;
+        display: block;
+    }
+    .blog-social a {
+        float: none;
+    }
+    .page-content .hvr-shutter-in-horizontal {
+        float: none;
+        margin-top: 7px;
+        left: 0px;
+    }
+    .blog-social a {
+        padding: 0px 0px;
+    }
+    .blog-header {
+        margin-top: -14px;
+    }
+}
+/* Mobile Vertical Layout: 488px 
+======================================================================================================================================================*/
+
+@media only screen and (min-width: 488px) and (max-width: 767px) {
+    .about-left {
+        height: 460px;
+        padding-top: 160px;
+        background: linear-gradient(3deg, rgba(255, 255, 255, 0.44), #fff 60%, rgba(245, 245, 255, 0.95));
+        text-align: center;
+    }
+    .speaker-section .col-xs-12,
+    .blog-section .col-xs-12,
+    .hide-bullets .col-xs-12,
+    .accomodation-section .col-xs-12,
+    .pricing-section .col-xs-12,
+    .sponsor-section .col-xs-12 {
+        width: 50%;
+    }
+    .achieve-section h5,
+    .achieve-section .stat-count,
+    .icon-lay {
+        text-align: center;
+    }
+    .gallery-section .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 450px;
+    }
+    .accomodation-section a.btn {
+        top: 50%;
+    }
+    .venue-card {
+        text-align: center;
+    }
+    .sponsor-section .btn-chos {
+        width: 38%;
+    }
+    .contact-info {
+        text-align: center;
+    }
+    .footer-section .recent-post-date {
+        top: -50px;
+    }
+    .footer-section .single-form .input-group {
+        width: 46%;
+    }
+    .recent-post li {
+        margin-top: 30px;
+    }
+    header .container {
+        padding-top: 138px;
+    }
+    .blog-post-list .entry-meta {
+		top: -72px;
+		position: relative;
+	}
+	
+	
+	.member .info p {
+		font-size: 13px;
+		text-transform: 
+	}
+	.member .info h6 {
+		letter-spacing: 2px;
+		font-size: 22px;
+	}
+	.pricing-box a {
+		font-size: 15px;
+	}
+	
+	
+	
+}

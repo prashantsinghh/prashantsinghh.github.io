@@ -1,0 +1,84 @@
+/* ==========================================================================
+  Color styles
+========================================================================== */
+.headr_txt h2 span {
+    color: #BFF073;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #BFF073;
+}
+.navbar-default .navbar-nav > li > .current {
+    color: #BFF073;
+}
+.dropdown-menu-large .dropdown-header {
+    border-bottom: 2px solid #BFF073;
+}
+.dropdown-menu li ul li a:hover {
+    color: #BFF073;
+}
+.hvr-shutter-in-horizontal {
+    background: #BFF073;
+}
+.hvr-shutter-in-horizontal::before {
+    background: #BFF073;
+}
+.btn-cus_1:hover {
+    background: #BFF073;
+    border: 1px solid #BFF073;
+}
+.agenda-section .nav-tabs > li a {
+    border-bottom: 5px solid #BFF073;
+}
+.agenda-section .nav-tabs > li > a:hover {
+    border-bottom: 5px solid #BFF073;
+}
+.member .info {
+    border: 2px solid #BFF073;
+}
+.member:hover .info {
+    background: #BFF073;
+}
+.achieve-section .stat-count {
+    color: #BFF073;
+}
+.pricing-box a {
+    background: #BFF073;
+}
+.pricing-box .price-recomand {
+    border-bottom: 3px solid #BFF073;
+}
+.outer-border.single-form .input-group .btn {
+    background-color: #BFF073;
+}
+.testimonials-section .owl-theme .owl-controls .owl-page.active span {
+    background: #BFF073;
+}
+.submit-button {
+    background:#BFF073;
+}
+.subfooter p a {
+    color: #BFF073;
+}
+.scrollup {
+    color: #BFF073;
+}
+ .scrollup:active,
+ .scrollup:focus {
+     color: #BFF073;
+ }
+.entry-meta-bottom {
+    border: 1px solid #BFF073;
+}
+.blog-area .pager-icon {
+    background: #BFF073;
+}
+.comments li .comment span.comment-reply a {
+    background: #BFF073;
+    border: 2px solid #BFF073;
+}
+.widget-tags > a:hover {
+    background: #BFF073;
+}
+
+ 
+ 

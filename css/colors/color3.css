@@ -1,0 +1,86 @@
+/* ==========================================================================
+   Color styles
+========================================================================== */
+.headr_txt h2 span {
+    color: #74AFAD;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #74AFAD;
+}
+.navbar-default .navbar-nav > li > .current {
+    color: #74AFAD;
+}
+.dropdown-menu-large .dropdown-header {
+    border-bottom: 2px solid #74AFAD;
+}
+.dropdown-menu li ul li a:hover {
+    color: #74AFAD;
+}
+.hvr-shutter-in-horizontal {
+    background: #74AFAD;
+}
+.hvr-shutter-in-horizontal::before {
+    background: #74AFAD;
+}
+.btn-cus_1:hover {
+    background: #74AFAD;
+    border: 1px solid #74AFAD;
+}
+.agenda-section .nav-tabs > li a {
+    border-bottom: 5px solid #74AFAD;
+}
+.agenda-section .nav-tabs > li > a:hover {
+    border-bottom: 5px solid #74AFAD;
+}
+.member .info {
+    border: 2px solid #74AFAD;
+}
+.member:hover .info {
+    background: #74AFAD;
+}
+.achieve-section .stat-count {
+    color: #74AFAD;
+}
+.pricing-box a {
+    background: #74AFAD;
+}
+.pricing-box .price-recomand {
+    border-bottom: 3px solid #74AFAD;
+}
+.outer-border.single-form .input-group .btn {
+    background-color: #74AFAD;
+}
+.testimonials-section .owl-theme .owl-controls .owl-page.active span {
+    background: #74AFAD;
+}
+.submit-button {
+    background:#74AFAD;
+}
+.subfooter p a {
+    color: #74AFAD;
+}
+.scrollup {
+    color: #74AFAD;
+}
+ .scrollup:active,
+ .scrollup:focus {
+     color: #74AFAD;
+ }
+.entry-meta-bottom {
+    border: 1px solid #74AFAD;
+}
+.blog-area .pager-icon {
+    background: #74AFAD;
+}
+.comments li .comment span.comment-reply a {
+    background: #74AFAD;
+    border: 2px solid #74AFAD;
+}
+.widget-tags > a:hover {
+    background: #74AFAD;
+}
+
+.submit-button, .hvr-shutter-in-horizontal, .pricing-box a, .about-left a, .btn-cus_1:hover, .comments li .comment span.comment-reply a, .widget-tags > a:hover, .btn:hover  {
+    color: #fff;
+}
+ 
